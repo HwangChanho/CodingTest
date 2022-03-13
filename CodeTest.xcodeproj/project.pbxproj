@@ -10,8 +10,9 @@
 		120023AB278BF13B0086016E /* 1.10_Programmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120023AA278BF13B0086016E /* 1.10_Programmers.swift */; };
 		1247173F2767867300959263 /* triangleWarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247173E2767867300959263 /* triangleWarm.swift */; };
 		125630042779767000BFDD1A /* 12.27_Programmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125630032779767000BFDD1A /* 12.27_Programmers.swift */; };
-		1263337027DCA2B80045ADEA /* getRespond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263336F27DCA2B80045ADEA /* getRespond.swift */; };
+		1263337027DCA2B80045ADEA /* 3.13_Programmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263336F27DCA2B80045ADEA /* 3.13_Programmers.swift */; };
 		1264AC54276B44DD00D49B3D /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264AC53276B44DD00D49B3D /* Binary.swift */; };
+		1285D06C27DE437F00BA138D /* 42888.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1285D06B27DE437F00BA138D /* 42888.swift */; };
 		12A3FAAD278FF0B700B41229 /* 1.13_Programmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3FAAC278FF0B700B41229 /* 1.13_Programmers.swift */; };
 		5862EF2E2713167B009F5383 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862EF2D2713167B009F5383 /* test.swift */; };
 		58731BD52721C26800906FAB /* b9095.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58731BD42721C26800906FAB /* b9095.swift */; };
@@ -43,8 +44,9 @@
 		120023AA278BF13B0086016E /* 1.10_Programmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.10_Programmers.swift; sourceTree = "<group>"; };
 		1247173E2767867300959263 /* triangleWarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triangleWarm.swift; sourceTree = "<group>"; };
 		125630032779767000BFDD1A /* 12.27_Programmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12.27_Programmers.swift; sourceTree = "<group>"; };
-		1263336F27DCA2B80045ADEA /* getRespond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getRespond.swift; sourceTree = "<group>"; };
+		1263336F27DCA2B80045ADEA /* 3.13_Programmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.13_Programmers.swift; sourceTree = "<group>"; };
 		1264AC53276B44DD00D49B3D /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
+		1285D06B27DE437F00BA138D /* 42888.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42888.swift; sourceTree = "<group>"; };
 		12A3FAAC278FF0B700B41229 /* 1.13_Programmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.13_Programmers.swift; sourceTree = "<group>"; };
 		5862EF2D2713167B009F5383 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		58731BD42721C26800906FAB /* b9095.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b9095.swift; sourceTree = "<group>"; };
@@ -108,7 +110,8 @@
 				120023AA278BF13B0086016E /* 1.10_Programmers.swift */,
 				125630032779767000BFDD1A /* 12.27_Programmers.swift */,
 				12A3FAAC278FF0B700B41229 /* 1.13_Programmers.swift */,
-				1263336F27DCA2B80045ADEA /* getRespond.swift */,
+				1263336F27DCA2B80045ADEA /* 3.13_Programmers.swift */,
+				1285D06B27DE437F00BA138D /* 42888.swift */,
 			);
 			path = CodeTest;
 			sourceTree = "<group>";
@@ -173,11 +176,12 @@
 			files = (
 				58957AB22705CE6100BE0166 /* b2475.swift in Sources */,
 				587699F72741DC8C005C164E /* News.swift in Sources */,
-				1263337027DCA2B80045ADEA /* getRespond.swift in Sources */,
+				1263337027DCA2B80045ADEA /* 3.13_Programmers.swift in Sources */,
 				58731BD52721C26800906FAB /* b9095.swift in Sources */,
 				5862EF2E2713167B009F5383 /* test.swift in Sources */,
 				58C6F51327085B5E0051E5D5 /* b1181.swift in Sources */,
 				1247173F2767867300959263 /* triangleWarm.swift in Sources */,
+				1285D06C27DE437F00BA138D /* 42888.swift in Sources */,
 				58E2C1D8272BD250003DB8AC /* distance.swift in Sources */,
 				58C6F51127083F690051E5D5 /* b1018.swift in Sources */,
 				1264AC54276B44DD00D49B3D /* Binary.swift in Sources */,

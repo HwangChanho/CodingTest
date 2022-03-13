@@ -38,9 +38,6 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
     let tempReport: Set = Set(report)
     var newReport = Array(tempReport)
     
-    //    print("temp : ", tempReport, "\nnew : ", newReport)
-    //    print(type(of: userAlarm))
-    
     // dictionary, result 초기화
     for i in 0 ..< id_list.count {
         userReport[id_list[i]] = 0
@@ -58,22 +55,16 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         }
     }
     
-    //    print("new : ", newReport)
-    //    print(userReport)
-    
     // report 당한사람 출력
     for item in userReport {
         // 최대 신고 횟수이상으로 받았을때
         if item.value >= k {
-            //            print(item.key, newReport)
             // 신고 당한사람 잡았으니 알림 보내자
             for data in newReport {
                 let key = data.components(separatedBy: " ")[1]
                 let value = data.components(separatedBy: " ")[0]
                 
-                //                print("신고 당한놈 :", item.key, "[data] :", data)
                 if key == item.key {
-//                    print("신고 한놈 :", value)
                     for i in 0 ..< id_list.count {
                         if id_list[i] == value {
                             result[i] += 1
@@ -110,7 +101,6 @@ func solution2(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
             }
         }
     }
-
 
     for name in dict.keys {
         if dict[name]!.count >= k {
